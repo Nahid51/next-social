@@ -13,7 +13,7 @@ const Post = () => {
                         height={40}
                         className="w-10 h-10 rounded-full"
                     />
-                    <p className=" font-medium">John Thomas</p>
+                    <h6 className=" font-medium">John Thomas</h6>
                 </div>
                 <Image
                     src="/more.png"
@@ -28,6 +28,7 @@ const Post = () => {
                         src="https://images.pexels.com/photos/1087735/pexels-photo-1087735.jpeg?auto=compress&cs=tinysrgb&w=600"
                         alt="post"
                         fill
+                        sizes="100%"
                         className=" object-cover rounded-md"
                     />
                 </div>
@@ -43,8 +44,8 @@ const Post = () => {
                             height={16}
                             className=" cursor-pointer"
                         />
-                        <p className="text-gray-300">|</p>
-                        <p className="text-gray-500">123 <span className="hidden md:inline">Likes</span></p>
+                        <span className="text-gray-300">|</span>
+                        <span className="text-gray-500">123 <span className="hidden md:inline">Likes</span></span>
                     </div>
                     <div className="flex items-center gap-4 bg-slate-100 rounded-xl p-2">
                         <Image
@@ -54,8 +55,8 @@ const Post = () => {
                             height={16}
                             className=" cursor-pointer"
                         />
-                        <p className="text-gray-300">|</p>
-                        <p className="text-gray-500">123 <span className="hidden md:inline">Comments</span></p>
+                        <span className="text-gray-300">|</span>
+                        <span className="text-gray-500">123 <span className="hidden md:inline">Comments</span></span>
                     </div>
 
                 </div>
@@ -68,8 +69,8 @@ const Post = () => {
                             height={16}
                             className=" cursor-pointer"
                         />
-                        <p className="text-gray-300">|</p>
-                        <p className="text-gray-500">123 <span className="hidden md:inline">Share</span></p>
+                        <span className="text-gray-300">|</span>
+                        <span className="text-gray-500">123 <span className="hidden md:inline">Share</span></span>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Birthdays = () => {
         <div className="p-4 bg-white rounded-lg shadow-md text-sm flex flex-col gap-4">
             {/* top */}
             <div className="flex items-center justify-between font-medium">
-                <p className="text-gray-500">Birthdays</p>
+                <h4 className="text-gray-500">Birthdays</h4>
             </div>
             {/* users */}
             <div className="flex items-center justify-between">
@@ -19,7 +19,7 @@ const Birthdays = () => {
                         height={40}
                         className="w-10 h-10 rounded-full object-cover"
                     />
-                    <p className=" font-semibold">May Cannon</p>
+                    <h6 className=" font-semibold">May Cannon</h6>
                 </div>
                 <div className=" flex items-center gap-2">
                     <button className=" bg-blue-500 text-white text-xs px-2 py-1 rounded-md">Celebrate</button>

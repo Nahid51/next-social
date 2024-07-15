@@ -38,7 +38,7 @@ const Comments = () => {
                         className="w-10 h-10 rounded-full"
                     />
                     <div className="flex flex-col gap-2 flex-1">
-                        <p className="font-medium">William Jenkins</p>
+                        <h6 className="font-medium">William Jenkins</h6>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus quasi odio cupiditate quo. Impedit consectetur assumenda, libero beatae voluptatibus numquam?</p>
                         <div className="flex items-center gap-8 text-xs text-gray-500 mt-2">
                             <div className=" flex items-center gap-4">
@@ -49,8 +49,8 @@ const Comments = () => {
                                     height={12}
                                     className=" cursor-pointer w-4 h-4"
                                 />
-                                <p className=" text-gray-300">|</p>
-                                <p className=" text-gray-500">123 Likes</p>
+                                <span className=" text-gray-300">|</span>
+                                <span className=" text-gray-500">123 Likes</span>
                             </div>
                             <div className="">Reply</div>
                         </div>

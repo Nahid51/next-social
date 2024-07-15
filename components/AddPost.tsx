@@ -32,7 +32,7 @@ const AddPost = () => {
                             width={20}
                             height={20}
                         />
-                        <p>Photo</p>
+                        <span>Photo</span>
                     </div>
                     <div className="flex items-center gap-1 cursor-pointer">
                         <Image
@@ -41,7 +41,7 @@ const AddPost = () => {
                             width={20}
                             height={20}
                         />
-                        <p>Video</p>
+                        <span>Video</span>
                     </div>
                     <div className="flex items-center gap-1 cursor-pointer">
                         <Image
@@ -50,7 +50,7 @@ const AddPost = () => {
                             width={20}
                             height={20}
                         />
-                        <p>Poll</p>
+                        <span>Poll</span>
                     </div>
                     <div className="flex items-center gap-1 cursor-pointer">
                         <Image
@@ -59,7 +59,7 @@ const AddPost = () => {
                             width={20}
                             height={20}
                         />
-                        <p>Event</p>
+                        <span>Event</span>
                     </div>
                 </div>
             </div>

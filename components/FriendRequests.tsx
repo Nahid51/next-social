@@ -7,7 +7,7 @@ const FriendRequests = () => {
         <div className="p-4 bg-white rounded-lg shadow-md text-sm flex flex-col gap-4">
             {/* top */}
             <div className="flex items-center justify-between font-medium">
-                <p className="text-gray-500">Friend Requests</p>
+                <h4 className="text-gray-500">Friend Requests</h4>
                 <Link href="/" className="text-blue-500 text-xs">See all</Link>
             </div>
             {/* users */}
@@ -48,7 +48,7 @@ const FriendRequests = () => {
                         height={40}
                         className="w-10 h-10 rounded-full object-cover"
                     />
-                    <p className=" font-semibold">Pauline Sutton</p>
+                    <h6 className=" font-semibold">Pauline Sutton</h6>
                 </div>
                 <div className=" flex items-center gap-2">
                     <Image
@@ -76,7 +76,7 @@ const FriendRequests = () => {
                         height={40}
                         className="w-10 h-10 rounded-full object-cover"
                     />
-                    <p className=" font-semibold">Genevieve Matthews</p>
+                    <h6 className=" font-semibold">Genevieve Matthews</h6>
                 </div>
                 <div className=" flex items-center gap-2">
                     <Image
