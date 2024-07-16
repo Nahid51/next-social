@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 const Stories = async () => {
-
     return (
         <div className="p-4 bg-white rounded-lg shadow-md overflow-scroll text-xs scrollbar_hide">
             <div className="flex gap-8 w-max">
